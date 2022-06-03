@@ -6,7 +6,7 @@ const SidebarMobile = ({ setMobileNavOpen }) => {
   return (
     <div className="wrapp">
       <div className="mobileNavBar">
-        <div className="close">
+        <div className="close ">
           <button onClick={() => setMobileNavOpen(false)}>
             {" "}
             <i className="fa fa-times"></i>
