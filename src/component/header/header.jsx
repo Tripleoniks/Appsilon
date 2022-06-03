@@ -37,7 +37,7 @@ const Header = ({navOpen}) => {
           </li>
         </ul>
         <div className="bar">
-           <div>  <img src={logo} alt="logo" className="img-fluid" /> nInsurance Portal</div>
+           <div>  <img src={logo} alt="logo" className="img-fluid" /> Insurance Portal</div>
            <p className="avatar_text">Hello! Rusalba Ruiz </p>
            <button onClick={() => navOpen(true)}  > <i className="fa fa-bars" ></i></button>
         </div>
