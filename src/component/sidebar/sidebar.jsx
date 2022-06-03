@@ -37,9 +37,9 @@ const Sidebar = () => {
               Your Plan : <span className="free_text">Free</span>
             </p>
           </a>
-          {/* <button className="button_text form-control">
+          <button className="button_text form-control">
             Create New Plan <i className="fa-solid fa-plus"></i>
-          </button> */}
+          </button>
         </li>
 
         <div className="nav-item-link">

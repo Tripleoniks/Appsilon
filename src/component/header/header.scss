@@ -38,7 +38,7 @@
                 display: none;
             }
             .bar{
-                padding: 0 .8rem;
+                padding: 0 1.5rem;
                 display: flex;
                 align-items: center;
                 justify-content: space-between;
@@ -53,6 +53,12 @@
                 }
             }
         }
+        .avatar_text {
+            font-size: 22px;
+            margin-top: 1rem;
+            color: #888cb7;
+            // text-align: center;
+          }
     }
 
 

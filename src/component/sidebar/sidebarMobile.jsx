@@ -1,5 +1,6 @@
 import { NavLink } from "react-router-dom";
 import "./sidebar.scss";
+import avatar from "../assets/userDp.svg";
 
 const SidebarMobile = ({ setMobileNavOpen }) => {
   return (
@@ -14,6 +15,23 @@ const SidebarMobile = ({ setMobileNavOpen }) => {
 
         <div className="nav">
           <ul>
+              <li>
+              <img src={avatar} alt="avatar" className="img-fluid avatar " />
+
+              </li>
+            <li>
+              {" "}
+              <NavLink
+                to="/"
+                onClick={() => setMobileNavOpen(false)}
+                className={({ isActive }) =>
+                  isActive ? "link-active" : "link"
+                }
+              >
+                Create New Plan <i className="fa-solid fa-plus"></i>
+              </NavLink>
+            </li>
+
             <li>
               <NavLink
                 to="/"

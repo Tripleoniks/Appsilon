@@ -194,6 +194,23 @@
         }
       }
     }
+    .button_text{
+        background: #fff;
+        border: 1px solid #fff;
+        color: #713bdb;
+        // display: block;
+        border-radius: 5px;
+        max-width: 168px;
+        margin: 0 auto;
+        padding: 10px;
+    
+        &:hover {
+            background: #fff;
+            border: 1px solid #a886e9;
+            color: #713bdb;
+            transition: ease-in-out 0.4s;
+        }
+    }
   }
 }
 
