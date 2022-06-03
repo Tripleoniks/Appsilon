@@ -1,0 +1,40 @@
+a{
+  text-decoration: none;
+  color:#A2A4B9;
+}
+
+.App{
+  position: relative;
+}
+.App-header{
+ 
+  box-shadow: 3px 5px 15px rgba(0, 0, 0, 0.1);
+  border-radius: 0px 20px 0px 0px;
+  background: #ffffff;
+}
+.right{
+  padding-left: 0 ;
+  background-color: #F4F5F9;
+
+}
+.sidebar{
+padding-right: 0 ;
+}
+
+
+
+
+
+@media screen and (max-width: 992px) {
+  .right{
+    width: 100%;
+    padding: 0;
+  }
+  .App-header{
+    border-radius: 0;
+  }
+  .sidebar{
+    display: none;
+  }
+  
+}

@@ -1,0 +1,167 @@
+.card-dash {
+  position: relative;
+  max-width: 980px;
+  height: 311px;
+  margin: 2rem auto;
+  padding: 0 !important;
+  border: none;
+  background-image: url(../assets/illustrator.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #f8f9ff;
+  box-shadow: 3px 5px 15px rgba(0, 0, 0, 0.15);
+  .card-body {
+      height: 100%;
+    .row {
+      align-items: center;
+      height: 100%;
+      .svg-background {
+        height: 100%;
+        background-image: url(../assets/Insurance.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position-x: center;
+        background-position-y: center;
+      }
+      .dash-up-right{
+        margin-left: -1.5rem;
+
+        p {
+            width: 100%;
+            font-size: 2em;
+            font-weight: 400;
+            color: #42474a;
+            // margin-left: 4rem;
+            text-align: center;
+          }
+          .btn-row {
+            display: flex;
+            // flex-wrap: wrap;
+            align-items: center;
+            gap: 2rem;
+            margin: 0 auto;
+            width: fit-content;
+            button {
+             padding: 1rem 2rem;
+              border: 2px dotted #42474a;
+              border-radius: 10px;
+              background: transparent;
+            }
+            #copy-code{
+                font-size: 22px;
+                margin-top: .5rem;
+                cursor: pointer;
+            }
+          }
+      }
+    }
+  }
+  
+}
+
+.dash-down-content{
+    max-width: 980px;
+    margin: 2rem auto;
+    // gap: 1rem; 
+    justify-content: space-around;
+    .card{
+        flex: 0 1 300px;
+        padding: 1rem;
+        margin: 1rem .1rem;
+        border-radius: 0;
+        border: none;
+        box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.06);
+       #amount-details{
+           font-size: 55px;
+           font-weight: 100;
+           color: #42474A;
+           padding: 0;
+           margin: 0;
+           span{
+                font-size: 35px;
+                padding: 0;
+                margin-left: -1rem;
+           }
+       }
+         :nth-child(2){
+              font-size: 17px;
+              font-weight: 100;
+              color: #42474A;
+         }
+         .amount-details-div{
+             margin: 1rem 0;
+         }
+         .progress{
+            height:5px;
+            .progress-bar {
+                background: linear-gradient(90deg, #33D69F 0%, #50EDB8 111.47%);
+                border-radius: 10px;
+                width: 100%;
+            }
+            .progress-bar2 {
+                background: linear-gradient(90deg, #713BDB 0%, #A886E9 111.47%);
+                border-radius: 10px;
+                width: 100%;
+            }
+
+         }
+         label{
+             padding-bottom: .5rem;
+         }
+         .pol-label{
+            font-size: 17px;
+            font-weight: 100;
+            color: #42474A;
+         }
+    }
+    .lower_sign{
+        color: #713BDB !important;
+        font-size: 35px;
+        position: relative; 
+        top: -30px;
+      }
+      .lowest_sign{
+        color: #42474A !important;
+        font-size: 13px;
+        position: relative; 
+        top: -10px;
+      }
+}
+// @media screen and (min-width: 992px) {
+//     .card-dash{
+//         margin: 2rem auto;
+//     }
+// }
+@media screen and (max-width: 1180px) {
+    .card-dash{
+        margin: 2rem;
+    }
+}
+
+@media screen and (max-width: 992px) {
+     .row{
+         margin: 0 auto;
+     }
+     .card-dash{
+         margin: 2rem;
+     }
+     .btn-row {
+        justify-content: center ;
+        width: 100%;
+     }
+     .dash-up-right {
+         margin: 0 !important ;
+     }
+     .dash-down-content{
+         margin: 0 auto;
+         .card{
+             margin: 1rem auto;
+         }
+         .amount-details-div{
+             .row{
+                 align-items: center !important;
+                 justify-content: center;
+             }
+         }
+     }
+}
